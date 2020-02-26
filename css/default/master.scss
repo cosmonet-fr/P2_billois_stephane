@@ -15,6 +15,13 @@ body {
 p {
   text-align: justify;
 }
+a {
+  color: $colorBorder;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
 
 h1 {
   font-size: 3em;
@@ -30,6 +37,7 @@ h2 {
   color: $color2;
   span {
     text-decoration: underline $colorBackground2;
+    color: $color2;
 
   }
 }
@@ -128,14 +136,14 @@ header{
     height: 50px;
     padding: 8px;
     margin-top: 28px;
-    border: solid $color2;
+    border: solid $color1;
   }
 }
 footer {
-  background-color: $color2;
   p {
     color: $colorBackground2;
-    text-align: center;
+    text-align: right;
+    margin-right: 10px;
   }
 }
 @media screen and (max-width: 1024px) {

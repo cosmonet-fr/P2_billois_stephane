@@ -66,6 +66,15 @@ p {
   text-align: justify;
 }
 
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 h1 {
   font-size: 3em;
   margin-top: 3.5em;
@@ -84,6 +93,7 @@ h2 {
 
 h2 span {
   text-decoration: underline #3498db;
+  color: #404040;
 }
 
 h3 {
@@ -198,16 +208,13 @@ header {
   height: 50px;
   padding: 8px;
   margin-top: 28px;
-  border: solid #404040;
-}
-
-footer {
-  background-color: #404040;
+  border: solid black;
 }
 
 footer p {
   color: #3498db;
-  text-align: center;
+  text-align: right;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 1024px) {
