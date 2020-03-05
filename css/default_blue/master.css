@@ -211,6 +211,16 @@ header {
   border: solid black;
 }
 
+.skills {
+  color: #3498db;
+  margin-bottom: 2rem;
+}
+
+.skillsbox {
+  display: flex;
+  justify-content: space-around;
+}
+
 footer p {
   color: #3498db;
   text-align: right;

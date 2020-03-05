@@ -139,6 +139,14 @@ header{
     border: solid $color1;
   }
 }
+.skills {
+  color: $colorBackground2;
+  margin-bottom: 2rem;
+}
+.skillsbox{
+  display: flex;
+  justify-content: space-around;
+}
 footer {
   p {
     color: $colorBackground2;
