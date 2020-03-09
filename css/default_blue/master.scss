@@ -50,6 +50,7 @@ h3 {
   background-color: $colorBackground2;
   width: $widthLeft;
   h3 {
+    text-transform: uppercase;
     text-align: center;
     padding: 0.2em;
     font-weight: bold;
@@ -162,7 +163,10 @@ footer {
   p {
     font-size: 2em;
   }
-  .left, .right {
+  .right{
+    width: 95%;
+  }
+  .left{
     width: 100%;
   }
   .left {
