@@ -12,6 +12,12 @@ body {
     justify-content: flex-start;
     }
 }
+em {
+  font-style: normal;
+}
+.gsm{
+  display: none;
+}
 p {
   text-align: justify;
 }
@@ -162,7 +168,16 @@ footer {
   p {
     font-size: 2em;
   }
-  .left, .right {
+  .gsm{
+    display: inline;
+  }
+  .desk{
+    display: none;
+  }
+  .right{
+    width: 95%;
+  }
+  .left{
     width: 100%;
   }
   .left {
